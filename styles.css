@@ -23,12 +23,14 @@
     margin-left: 80px;
 }
 
-.metricaContainerUm {
-    margin-right: 8em;
+.metricaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.metricaContainer {
-    margin-right: 4em;
+.metricaContainerUm {
+    margin-right: 64px;
 }
 
 .metricaNumero {
@@ -53,4 +55,5 @@
     font-weight: 400;
     color: var(--cinza);
     line-height: 24px;
+    margin-right: 32px;
 }

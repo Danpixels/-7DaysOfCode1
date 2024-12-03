@@ -6,6 +6,7 @@
     --preto: #101828;
     --cinza: #667085;
     --vermelho: #8E2424;
+    --vermelho-claro:rgb(142, 36, 36, 0.05);
     --fonte-principal: 'Inter', sans-serif;
 }
 
@@ -21,6 +22,7 @@
     align-items: center;
     text-align: left;
     margin-left: 80px;
+    padding-bottom: 96px;
 }
 
 .metricaContainer {

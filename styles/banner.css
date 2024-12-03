@@ -21,6 +21,7 @@
 }
 
 .bannerTexto {
+    width: 45%;
     text-align: center;
     font-family: var(--fonte-principal);
     font-size: 20px;
@@ -29,4 +30,27 @@
     margin: 0 8em;
     line-height: 30px;
     padding-top: 12px;
+}
+
+.bannerVagas {
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+    background-color: var(--vermelho-claro);
+    font-weight: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.bannerVagasTitulo {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 24px 0;
+}
+
+.bannerImagem {
+    margin-top: 64px;
+    width: 90%;
 }

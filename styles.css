@@ -1,0 +1,56 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #101828;
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+.body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.metricas {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.metricaContainerUm {
+    margin-right: 8em;
+}
+
+.metricaContainer {
+    margin-right: 4em;
+}
+
+.metricaNumero {
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.metricaTitulo {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 8px;
+}
+
+.metricaTexto {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    line-height: 24px;
+}

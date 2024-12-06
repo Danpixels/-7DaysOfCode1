@@ -1,10 +1,15 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/vagas.css");
+@import url("styles/comentarios.css");
+@import url("styles/rodape.css");
 
 :root {
     --branco: #FFFFFF;
+    --off-white: #F9FAFB;
     --preto: #101828;
     --cinza: #667085;
+    --cinza-claro: #EAECF0;
     --vermelho: #8E2424;
     --vermelho-claro:rgb(142, 36, 36, 0.05);
     --fonte-principal: 'Inter', sans-serif;
@@ -21,6 +26,7 @@
     display: flex;
     align-items: center;
     text-align: left;
+    margin-top: 96px;
     margin-left: 80px;
     padding-bottom: 96px;
 }

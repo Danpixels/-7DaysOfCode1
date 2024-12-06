@@ -1,0 +1,49 @@
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4.5em 7em 6em 7em;
+    background-color: var(--vermelho-claro);
+    border-radius: 64px;
+}
+
+.comentariosTexto {
+    padding-top: 4em;
+    display: flex;
+    justify-content: center;
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+.comentariosTitulo {
+    text-align: center;
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0.5em 64px 0 64px;
+}
+
+.comentariosImagem {
+    width: 56px;
+    height: 56px;
+    margin: 2em 0 1em 0;
+}
+
+.comentariosNome {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.comentariosCargo {
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 4em;
+}
